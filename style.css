@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding:0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+  width: 16%;
+}
+
+li a {
+  display: block;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1f1e1e;
+}
+
+.heading{
+  margin-top: -90px;
+  margin-left: 120px;
+}
+.bg{
+  background-image: url('img1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height:600px;
+  width: 100%;
+}
+
+.nit{
+  text-align: center;
+  background-color: black;
+  color:white;
+  font-size: 25px;
+  margin-top: 300px;
+  opacity: 0.7;
+}
+
+.imgs {
+  margin-top : -20px;
+  margin-left: 20px;
+
+}
+
+.one{
+  background-color: pink;
+  margin-top: 40px;
+  margin-left: 4%;
+  width: 250px;
+  height : 175px;
+}
+
+.two{
+  background-color: #b2dbed;
+  margin-top: -175px;
+  margin-left: 29%;
+  width: 250px;
+  height : 175px;
+}
+
+.three{
+  background-color: #a5e6b5;
+  margin-top: -175px;
+  margin-left: 54%;
+  width: 250px;
+  height : 175px;
+}
+
+.four{
+  background-color: #c3a5e6;
+  margin-top: -175px;
+  margin-left: 79%;
+  width: 250px;
+  height : 175px;
+}
+h3{
+  padding-top: 60px;
+  font-size: 23px;
+  text-align: center;
+}
+.foot{
+  margin-top: -20px;
+  margin-bottom: -20px;
+  padding-left: 35%;
+  background: #000000;
+  font-size: 15px;
+  color: white;
+}
